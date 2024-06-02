@@ -144,6 +144,19 @@ th, td {
   .news div,.image div{
     border: 1px black solid;
   }
+  .contactPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  .contactPage>div{
+    width: 50%;
+  }
+  .contactInfo p,.contactInfo h2{
+    margin-bottom: 7px;
+  }
 
 
 

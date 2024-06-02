@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+</head>
+
+<body>
+    <section class="banner">
+        <div class="fbClass">
+            <img class="fblogo" src="./images/fblogo.png" alt="">
+        </div>
+        <div class="bannerHeading">
+            <h2 style="color: white;">MY WEBSITE</h2>
+        </div>
+        <div class="bannerdate">
+            <h3>Sunday,14 February,2016</h3>
+            <div>
+                <input class="dateInput" placeholder="Search Here" type="text" name="" id="">
+            </div>
+        </div>
+    </section>
+    <!-- navigation section -->
+    <section class="navigation">
+        <div class="navmenu">
+            <a href="index.html">Home</a>
+        </div>
+        <div>
+            <a href="login.html">Form</a>
+        </div>
+        <div>
+            <a href="">Table</a>
+        </div>
+        <div>
+            <a href="">News Portal</a>
+        </div>
+        <div>
+            <a href="">Image</a>
+        </div>
+        <div>
+            <a href="">Contact</a>
+        </div>
+    </section>
+    <section class="registrationForm">
+        <h2 style="text-align: center;margin-bottom: 1.5rem;">Registration Form</h2>
+        <div class="inputfield">
+            <label for="email">First Name</label>
+            <input type="text" id="email">
+        </div>
+        <div class="inputfield">
+            <label for="password">Last Name</label>
+            <input type="password" id="password">
+        </div>
+        <div class="inputfield">
+            <label for="email">Username or Email</label>
+            <input type="text" id="email">
+        </div>
+        <div class="inputfield">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+        <div style="display: flex;gap: 60%;">
+            <label style="font-weight: bold;" for="">Gender</label>
+           <div style="display: flex;flex-direction: column;">
+            <div style="display: flex;gap:3px;">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+            </div>
+
+            <div style="display: flex;gap: 3px;">
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+           </div>
+        </div>
+        <div style="display: flex;gap: 60%;margin-top: 1rem;">
+            <label style="font-weight: bold;" for="">Division</label>
+            <select name="" id="">
+                <option value="">Dhaka</option>
+                <option value="">Barishal</option>
+                <option value="">Chitagong</option>
+                <option value="">Comilla</option>
+                <option value="">Sylhet</option>
+                <option value="">Rangpur</option>
+            </select>
+        </div>
+        <div style="text-align:center;margin-top: 1rem;">
+            <button style="cursor: pointer;">Register</button>
+        </div>
+
+
+    </section>
+</body>
+
+</html>

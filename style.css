@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+body{
+    width:93%;margin-left: auto;margin-right: auto;margin-top: 39px;
+}
 .banner{
     display: flex;
     gap: 5px;
@@ -15,7 +18,6 @@
 }
 .fblogo{
     width:50px;
-
     background-color: rgba(58, 219, 165, 0.87);
 }
 .bannerHeading{
@@ -36,10 +38,7 @@
     background-color:rgba(58, 219, 165, 0.87);
 }
 .bannerdate .dateInput::placeholder{
-    padding: 5px;
-    
-    
-  
+    padding: 5px;  
 }
 .navigation{
     display: grid;
@@ -59,4 +58,41 @@
     color:white;
     text-decoration: none;
     font-weight: bold;
+}
+.hero{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+}
+.loginFrom,.registrationForm{
+    width: 30%;
+    margin-top: 4rem;
+    border: 1px black solid;
+    margin-left: auto;
+    margin-right: auto;
+   padding-top: 3rem;
+   padding-bottom: 2rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+
+    /* background-color: gray; */
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+.inputfield{
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    
+}
+.inputfield > input{
+    width: 43%;
+    /* text-align: right; */
+}
+.inputfield > label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: start;
 }

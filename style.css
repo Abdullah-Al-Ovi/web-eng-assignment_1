@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+.banner{
+    display: flex;
+    gap: 5px;
+    height: 15vh;
+}
+.fbClass{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(58, 219, 165, 0.87);
+}
+.fblogo{
+    width:50px;
+
+    background-color: rgba(58, 219, 165, 0.87);
+}
+.bannerHeading{
+    width: 70%;
+    background-color:rgba(58, 219, 165, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerdate{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(58, 219, 165, 0.87);
+}

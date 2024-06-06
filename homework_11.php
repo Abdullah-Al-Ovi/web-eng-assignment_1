@@ -1,5 +1,6 @@
 <?php
-function isPrime($number) {
+function isPrime($number)
+{
     if ($number <= 1) {
         return false;
     }
@@ -13,14 +14,15 @@ function isPrime($number) {
     return true;
 }
 
-function findingPrimeNumbersFromArray($arr) {
-    $primeNumbers = array_filter($arr, function($value) {
+function findingPrimeNumbersFromArray($arr)
+{
+    $primeNumbers = array_filter($arr, function ($value) {
         return is_numeric($value) && isPrime($value);
     });
     return array_values($primeNumbers);
 }
 
-$arrayOfNumbers = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+$arrayOfNumbers = array(12, 17, 23, 8, 31, 45, 53, 60, 71, 89, 97, 101);
 
 $primeNumbers = findingPrimeNumbersFromArray($arrayOfNumbers);
 
